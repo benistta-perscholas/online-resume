@@ -1,0 +1,182 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    /* flex-basis: 100%; */
+   
+  }
+  
+  .box1-box2-container {
+    display: flex;
+    gap: 0px;
+  }
+  
+  .box1,
+  .box2,
+  .box3 {
+    background-color: #4a4444;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .text-container h1,
+  .text-container p,
+  .box2 p,
+  .box3 p,
+  .section2-section3-container {
+    color: white;
+    
+  }
+  
+  .box1 {
+    display: flex;
+    flex-basis: 50%;
+  gap: 20px;
+    align-items: center;
+  }
+  
+  .box1 .picture-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .box2 {
+    flex-basis: 50%;
+    align-items: center;
+  }
+  
+  .box3 {
+    flex-basis: 100%;
+    margin-bottom: -50px;
+    text-align: start;
+    align-items: flex-start;
+  }
+  
+  .box1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section2-section3-container {
+    display: flex;
+    flex-direction:column;
+    padding: 50px;
+    gap: 20px;
+    flex-basis: 100%; 
+    background-color: #4a4444;
+  }
+  
+  .section2,
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: baseline; */
+    justify-content: space-between;
+    flex-basis: calc(50% - 10px);
+    background-color: #4a4444;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    gap: 20px;
+  }
+  .section3{
+    display:flex;
+  flex-wrap: wrap;
+  }
+
+ 
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .boxes {
+    background-color: #4a4444;
+    color: white;
+    padding: 10px;
+  }
+  
+  .box {
+    background-color: #4a4444;
+    color: white;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+  }
+  
+  .box-content {
+    padding: 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .skill-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .skill-name {
+    flex-basis: 50%;
+  }
+  
+  .skill-percentage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .percentage-bar {
+    height: 20px;
+  }
+  
+  .percentage-number {
+    font-size: 14px;
+  }
+  
+  .skill-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .language-circles {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+
+
+
+ 
